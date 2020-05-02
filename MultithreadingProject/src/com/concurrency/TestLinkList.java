@@ -1,0 +1,16 @@
+package com.concurrency;
+
+public class TestLinkList {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		LinkList<String> linkedList = new LinkList<String>("rohit");
+		linkedList.append("nitin");
+		linkedList.append("shankar");
+		linkedList.printUntilInterrupted("rohit");
+	}
+
+}
